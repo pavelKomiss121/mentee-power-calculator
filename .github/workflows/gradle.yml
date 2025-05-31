@@ -1,5 +1,4 @@
 name: Java CI with Gradle  # Название вашего workflow
-
   on:  # Определяет, когда будет запускаться workflow
     push:
       branches: [ main, feature/* ]  # При push в ветку main или любую feature-ветку
