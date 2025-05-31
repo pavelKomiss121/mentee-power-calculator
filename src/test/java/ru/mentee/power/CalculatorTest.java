@@ -32,6 +32,7 @@ class CalculatorTest {
         assertEquals(15, calculator.multiply(5, 3));
         assertEquals(-15, calculator.multiply(-5, 3));
         assertEquals(15, calculator.multiply(-5, -3));
+        assertEquals(0, calculator.multiply(0, 10));
     }
 
     @Test
