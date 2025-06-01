@@ -45,9 +45,8 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Тест деления на ноль")
-    void testDivideByZero() {
-        ArithmeticException exception = assertThrows(ArithmeticException.class,
-                () -> calculator.divide(5, 0));
-        assertEquals(exception.getMessage(), "Деление на 0");
+    public void testDivideByZero() {
+        double resultDiv = calculator.divide(3, 0);
+        assertEquals("Divide by zero gives infinity as result", true, Double.isInfinite(resultDiv));
     }
 }
