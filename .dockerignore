@@ -1,0 +1,34 @@
+# Игнорируем файлы IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Игнорируем временные файлы
+*.class
+*.jar
+target/
+build/
+.gradle/
+gradle/
+
+# Игнорируем документацию
+README.md
+*.md
+
+# Игнорируем git
+.git/
+.gitignore
+
+# Игнорируем логи
+*.log
+
+# Игнорируем тестовые файлы
+src/test/
+
+# Игнорируем Gradle wrapper
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
